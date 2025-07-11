@@ -35,25 +35,25 @@ import { cn } from "@/lib/utils";
 const mainMenuItems = [
   {
     title: "Dashboard",
-    url: "/",
+    url: `${process.env.URL_FRONT}/`,
     icon: Home,
     description: "Visão Geral"
   },
   {
     title: "Clientes",
-    url: "/clientes", 
+    url: `${process.env.URL_FRONT}/clientes`,
     icon: Users,
     description: "Empresas e Contatos"
   },
   {
     title: "Atendimento",
-    url: "/atendimento",
+    url: `${process.env.URL_FRONT}/atendimento`,
     icon: MessageSquare,
     description: "Omnichannel"
   },
   {
     title: "Vendas",
-    url: "/vendas",
+    url: `${process.env.URL_FRONT}/vendas`,
     icon: Target,
     description: "Funil e Propostas"
   }
@@ -62,13 +62,13 @@ const mainMenuItems = [
 const aiMenuItems = [
   {
     title: "Agente de IA",
-    url: "/agente-ia",
+    url: `${process.env.URL_FRONT}/agente-ia`,
     icon: Bot,
     description: "Assistente Inteligente"
   },
   {
     title: "Supervisor IA",
-    url: "/supervisor-ia", 
+    url: `${process.env.URL_FRONT}/supervisor-ia` 
     icon: Brain,
     description: "Análise e Qualidade"
   }
@@ -77,7 +77,7 @@ const aiMenuItems = [
 const channelsMenuItems = [
   {
     title: "Canais",
-    url: "/canais",
+    url: `${process.env.URL_FRONT}/canais`,
     icon: Smartphone,
     description: "WhatsApp, SMS, Telefonia"
   }
@@ -86,25 +86,25 @@ const channelsMenuItems = [
 const managementMenuItems = [
   {
     title: "Atendimento ao Cliente",
-    url: "/atendimento-cliente",
+    url: `${process.env.URL_FRONT}/atendimento-cliente`,
     icon: Headphones,
     description: "Tickets e Chamados"
   },
   {
     title: "Financeiro",
-    url: "/financeiro",
+    url: `${process.env.URL_FRONT}/financeiro`,
     icon: CreditCard,
     description: "Cobranças e Pagamentos"
   },
   {
     title: "Equipe",
-    url: "/equipe",
+    url: `${process.env.URL_FRONT}/equipe`,
     icon: UserCog,
     description: "Gestão de Pessoas"
   },
   {
     title: "Relatórios",
-    url: "/relatorios",
+    url: `${process.env.URL_FRONT}/relatorios`,
     icon: BarChart,
     description: "Analytics e Insights"
   }
@@ -113,13 +113,13 @@ const managementMenuItems = [
 const systemMenuItems = [
   {
     title: "Tags",
-    url: "/tags",
+    url: `${process.env.URL_FRONT}/tags`,
     icon: Tag,
     description: "Marcadores"
   },
   {
     title: "Configurações", 
-    url: "/configuracoes",
+    url: `${process.env.URL_FRONT}/configuracoes`,
     icon: Settings,
     description: "Sistema"
   }
