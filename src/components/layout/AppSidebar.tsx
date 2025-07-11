@@ -1,36 +1,33 @@
 
-import React from 'react';
-import { 
-  Home, 
-  Users, 
-  MessageSquare, 
-  Target, 
-  Bot, 
-  Brain, 
-  UserCheck2, 
-  CreditCard, 
-  UserCog, 
-  Settings,
-  BarChart,
-  Tag,
-  Headphones,
-  Smartphone,
-  Phone
-} from 'lucide-react';
 import {
   Sidebar,
   SidebarContent,
+  SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
+  SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  SidebarHeader,
-  SidebarFooter,
 } from "@/components/ui/sidebar";
-import { useLocation, Link } from 'react-router-dom';
 import { cn } from "@/lib/utils";
+import {
+  BarChart,
+  Bot,
+  Brain,
+  CreditCard,
+  Headphones,
+  Home,
+  MessageSquare,
+  Settings,
+  Smartphone,
+  Tag,
+  Target,
+  UserCog,
+  Users
+} from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 
 const mainMenuItems = [
   {
@@ -68,7 +65,7 @@ const aiMenuItems = [
   },
   {
     title: "Supervisor IA",
-    url: `${process.env.URL_FRONT}/supervisor-ia` 
+    url: `${process.env.URL_FRONT}/supervisor-ia`,
     icon: Brain,
     description: "Análise e Qualidade"
   }
