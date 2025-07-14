@@ -32,25 +32,25 @@ import { Link, useLocation } from 'react-router-dom';
 const mainMenuItems = [
   {
     title: "Dashboard",
-    url: `${process.env.URL_FRONT}/`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/`,
     icon: Home,
     description: "Visão Geral"
   },
   {
     title: "Clientes",
-    url: `${process.env.URL_FRONT}/clientes`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/clientes`,
     icon: Users,
     description: "Empresas e Contatos"
   },
   {
     title: "Atendimento",
-    url: `${process.env.URL_FRONT}/atendimento`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/atendimento`,
     icon: MessageSquare,
     description: "Omnichannel"
   },
   {
     title: "Vendas",
-    url: `${process.env.URL_FRONT}/vendas`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/vendas`,
     icon: Target,
     description: "Funil e Propostas"
   }
@@ -59,13 +59,13 @@ const mainMenuItems = [
 const aiMenuItems = [
   {
     title: "Agente de IA",
-    url: `${process.env.URL_FRONT}/agente-ia`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/agente-ia`,
     icon: Bot,
     description: "Assistente Inteligente"
   },
   {
     title: "Supervisor IA",
-    url: `${process.env.URL_FRONT}/supervisor-ia`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/supervisor-ia`,
     icon: Brain,
     description: "Análise e Qualidade"
   }
@@ -74,7 +74,7 @@ const aiMenuItems = [
 const channelsMenuItems = [
   {
     title: "Canais",
-    url: `${process.env.URL_FRONT}/canais`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/canais`,
     icon: Smartphone,
     description: "WhatsApp, SMS, Telefonia"
   }
@@ -83,25 +83,25 @@ const channelsMenuItems = [
 const managementMenuItems = [
   {
     title: "Atendimento ao Cliente",
-    url: `${process.env.URL_FRONT}/atendimento-cliente`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/atendimento-cliente`,
     icon: Headphones,
     description: "Tickets e Chamados"
   },
   {
     title: "Financeiro",
-    url: `${process.env.URL_FRONT}/financeiro`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/financeiro`,
     icon: CreditCard,
     description: "Cobranças e Pagamentos"
   },
   {
     title: "Equipe",
-    url: `${process.env.URL_FRONT}/equipe`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/equipe`,
     icon: UserCog,
     description: "Gestão de Pessoas"
   },
   {
     title: "Relatórios",
-    url: `${process.env.URL_FRONT}/relatorios`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/relatorios`,
     icon: BarChart,
     description: "Analytics e Insights"
   }
@@ -110,13 +110,13 @@ const managementMenuItems = [
 const systemMenuItems = [
   {
     title: "Tags",
-    url: `${process.env.URL_FRONT}/tags`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/tags`,
     icon: Tag,
     description: "Marcadores"
   },
   {
     title: "Configurações", 
-    url: `${process.env.URL_FRONT}/configuracoes`,
+    url: `${process.env.URL_FRONT || '/teste-lovable'}/configuracoes`,
     icon: Settings,
     description: "Sistema"
   }
