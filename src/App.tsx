@@ -23,7 +23,7 @@ const App = () => (
       <BrowserRouter>
         <MainLayout>
           <Routes>
-            <Route path={`${process.env.URL_FRONT}/`} element={<Dashboard />} />
+            <Route path="/" element={<Dashboard />} />
             <Route path={`${process.env.URL_FRONT}/clientes`} element={<Clientes />} />
             <Route path={`${process.env.URL_FRONT}/atendimento`} element={<Atendimento />} />
             <Route path={`${process.env.URL_FRONT}/vendas`} element={<Vendas />} />
